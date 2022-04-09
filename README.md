@@ -71,3 +71,6 @@ Categoria --> Produto
 - [x] Criar o Relacionamento entre as 2 classes
 - [x] Fazer os testes no Insomnia
 
+
+<a href="https://lojagengames.herokuapp.com/" target="_blank">Deploy no Heroku</a>
+
