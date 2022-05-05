@@ -28,7 +28,7 @@ public class Produto {
 	@NotNull(message = "Nome é obrigatório!")                                       										
 	private String nome;
 	
-	@Size(max=500)
+	@Size(max=500, message = "A descrição deve ter no máximo 500 caracteres!")
 	private String descricao;
 	
 	@NotNull(message = "Console é obrigatório!")
@@ -50,7 +50,6 @@ public class Produto {
 	@ManyToOne
 	@JsonIgnoreProperties("produto")
 	private Categoria categoria;
-
 
 	public Long getId() {
 		return id;
