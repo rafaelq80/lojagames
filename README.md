@@ -1,16 +1,18 @@
-<h1>Exercício 01 - Loja de Games</h1>
+<h1>Exercício 01 - Security - Loja de Games</h1>
 
 
 
 <h2>Etapas:</h2>
 
 
-- [x] Criar o Projeto Spring
-- [x] Configurar as Dependências do Projeto
-- [x] Configurar o Banco de dados
-- [x] Criar a Camada Model
-- [x] Criar a Camada Repository
-- [x] Criar a Camada Controller
-- [x] Criar o Relacionamento entre as 2 classes
-- [x] Fazer os testes no Isomnia
+- [x] Adicione as Dependências  no arquivo pom.xml
+- [x] Crie a Classe Usuario na Camada Model
+- [x] Crie a Classe UsuarioLogin na Camada Model
+- [x] Crie a Classe UsuarioRepository na Camada Repository
+- [x] Crie a classe BasicSecurityConfig na Camada Security
+- [x] Crie a classe UserDetailsImpl na Camada Security
+- [x] Crie a classe UserDetailsServiceImpl na Camada Security
+- [x] Crie a classe UsuarioService na Camada Service
+- [x] Crie a Classe UsuarioController na Camada Controller
+- [x] Execute os testes no Insomnia
 
